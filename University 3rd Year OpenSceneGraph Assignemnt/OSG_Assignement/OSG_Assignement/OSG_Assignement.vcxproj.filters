@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{f19f92dc-2896-4798-b956-18c6779fa4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{9956539e-8bf0-4c9c-9276-c528c28f607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventHandlers">
+      <UniqueIdentifier>{f9546189-6520-414a-8142-47f0e5743189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventHandlers">
+      <UniqueIdentifier>{78bd4712-bbe3-45d0-9d17-0fe32ecea5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic\Shapes">
+      <UniqueIdentifier>{38bca6dd-dbb6-4730-a5ee-8ae126d217e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic\Shapes">
+      <UniqueIdentifier>{4f68dc12-1baa-4bcd-a291-23275dd879d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic\Menu">
+      <UniqueIdentifier>{c0ab7032-7b71-4099-9fe5-351b1d92c42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic\Menu">
+      <UniqueIdentifier>{53727ff8-c4e9-447b-8673-c3df4ddbde65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataHolders">
+      <UniqueIdentifier>{5863e041-06c8-4338-a862-96c2119369c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHolders">
+      <UniqueIdentifier>{b33d756e-5f35-4bc8-a45d-1b43b3cbdf8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Callbacks">
+      <UniqueIdentifier>{8ef04fb5-4180-49a8-92c2-6b7c5aa72a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CallBacks">
+      <UniqueIdentifier>{3b17f428-d0ae-4485-9839-080ed112b9f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicEngine.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFactory.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="IcoSphereGeometry.h">
+      <Filter>Header Files\Logic\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="PickHandler.h">
+      <Filter>Header Files\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\Logic\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDCamera.h">
+      <Filter>Header Files\Logic\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDItem.h">
+      <Filter>Header Files\Logic\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDItemCallBack.h">
+      <Filter>Header Files\CallBacks</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDItemDataHolder.h">
+      <Filter>Header Files\DataHolders</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManipulator.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDataHolder.h">
+      <Filter>Header Files\DataHolders</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCallBack.h">
+      <Filter>Header Files\CallBacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRobot.h">
+      <Filter>Header Files\Logic\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotRotationTransformDataHolder.h">
+      <Filter>Header Files\DataHolders</Filter>
+    </ClInclude>
+    <ClInclude Include="STATICVALS.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEventHandler.h">
+      <Filter>Header Files\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupDataHolder.h">
+      <Filter>Header Files\DataHolders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSG_Assignement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicEngine.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeFactory.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="IcoSphereGeometry.cpp">
+      <Filter>Source Files\Logic\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="PickHandler.cpp">
+      <Filter>Source Files\EventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Logic\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDCamera.cpp">
+      <Filter>Source Files\Logic\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDItem.cpp">
+      <Filter>Source Files\Logic\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDItemCallBack.cpp">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDItemDataHolder.cpp">
+      <Filter>Source Files\DataHolders</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManipulator.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDataHolder.cpp">
+      <Filter>Source Files\DataHolders</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCallBack.cpp">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRobot.cpp">
+      <Filter>Source Files\Logic\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotRotationTransformDataHolder.cpp">
+      <Filter>Source Files\DataHolders</Filter>
+    </ClCompile>
+    <ClCompile Include="STATICVALS.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardEventHandler.cpp">
+      <Filter>Source Files\EventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupDataHolder.cpp">
+      <Filter>Source Files\DataHolders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

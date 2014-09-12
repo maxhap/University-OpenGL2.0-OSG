@@ -1,0 +1,211 @@
+MatrixTransform {
+  UniqueID MatrixTransform_0
+  name "MatrixTransform:MO:pyramid0"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  UpdateCallbacks {
+    NodeCallback {
+    }
+  }
+  referenceFrame RELATIVE
+  Matrix {
+    0.994515 0.104596 -5.20417e-018 0
+    -0.103994 0.988794 0.107103 0
+    0.0112026 -0.106516 0.994248 0
+    -1.04385 -68.3752 8.83963 1
+  }
+  num_children 2
+  Switch {
+    name "Switch:SO:pyramid0"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    NewChildDefaultValue 0
+    ValueList {
+      1
+      0
+      0
+    }
+    num_children 3
+    Geode {
+      name "Gode::SO:M:pyramid0"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      StateSet {
+        UniqueID StateSet_1
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_LIGHTING OVERRIDE|ON
+        PolygonMode {
+          mode FRONT_AND_BACK LINE
+        }
+        Material {
+          ColorMode OFF
+          ambientColor 1 0 0 1
+          diffuseColor 1 0 0 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess FRONT 0.2
+          shininess BACK  0
+        }
+      }
+      num_drawables 1
+      ShapeDrawable {
+        UniqueID ShapeDrawable_2
+        Sphere {
+          Center 0 0 0
+          Radius 1.6
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        color 1 1 1 1
+      }
+    }
+    Geode {
+      name "Gode::SO:R:pyramid0"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      StateSet {
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_LIGHTING OVERRIDE|ON
+        PolygonMode {
+          mode FRONT_AND_BACK LINE
+        }
+        Material {
+          ColorMode OFF
+          ambientColor 0 1 0 1
+          diffuseColor 0 1 0 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess FRONT 0.2
+          shininess BACK  0
+        }
+      }
+      num_drawables 1
+      ShapeDrawable {
+        Sphere {
+          Center 0 0 0
+          Radius 1.6
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        color 1 1 1 1
+      }
+    }
+    Geode {
+      name "Gode::SO:S:pyramid0"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      StateSet {
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_LIGHTING OVERRIDE|ON
+        PolygonMode {
+          mode FRONT_AND_BACK LINE
+        }
+        Material {
+          ColorMode OFF
+          ambientColor 0 0 1 1
+          diffuseColor 0 0 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess FRONT 0.2
+          shininess BACK  0
+        }
+      }
+      num_drawables 1
+      ShapeDrawable {
+        Sphere {
+          Center 0 0 0
+          Radius 1.6
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        color 1 1 1 1
+      }
+    }
+  }
+  Geode {
+    name "Geometry:MO:pyramid0"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    StateSet {
+      UniqueID StateSet_3
+      rendering_hint DEFAULT_BIN
+      renderBinMode INHERIT
+      GL_LIGHTING OVERRIDE|ON
+      Material {
+        ColorMode OFF
+        ambientColor 0.2 0.2 0.2 1
+        diffuseColor 1 1 1 1
+        specularColor 0 0 0 1
+        emissionColor 0 0 0 1
+        shininess FRONT 0.2
+        shininess BACK  0
+      }
+    }
+    num_drawables 1
+    Geometry {
+      UniqueID Geometry_4
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 5
+      {
+        DrawElementsUInt QUADS 4
+        {
+          3 2 1 0 
+        }
+        DrawElementsUInt TRIANGLES 3
+        {
+          0 1 4 
+        }
+        DrawElementsUInt TRIANGLES 3
+        {
+          1 2 4 
+        }
+        DrawElementsUInt TRIANGLES 3
+        {
+          2 3 4 
+        }
+        DrawElementsUInt TRIANGLES 3
+        {
+          3 0 4 
+        }
+      }
+      VertexArray Vec3Array 5
+      {
+        -1 -1 -1
+        1 -1 -1
+        1 1 -1
+        -1 1 -1
+        0 0 1
+      }
+      NormalBinding PER_PRIMITIVE
+      NormalArray Vec3Array 5
+      {
+        0 0 -4
+        0 -4 2
+        4 -0 2
+        0 4 2
+        -4 0 2
+      }
+      ColorBinding PER_VERTEX
+      ColorArray Vec4Array 5
+      {
+        1 0 0 1
+        0 1 0 1
+        0 0 1 1
+        1 1 1 1
+        1 0 0 1
+      }
+      TexCoordArray 0 Vec2Array 5
+      {
+        0 0
+        0.25 0
+        0.5 0
+        0.75 0
+        0.5 1
+      }
+    }
+  }
+}

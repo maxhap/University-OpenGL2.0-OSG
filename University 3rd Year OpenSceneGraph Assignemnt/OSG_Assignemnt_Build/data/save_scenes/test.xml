@@ -1,0 +1,10 @@
+<scene>
+<object>
+<filename>scene_object_13.osg</filename>
+<Texture></Texture>
+</object>
+<object>
+<filename>scene_object_14.osg</filename>
+<Texture>..\data\sonic1.jpg</Texture>
+</object>
+</scene>

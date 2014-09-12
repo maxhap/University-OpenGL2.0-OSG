@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSG_Assignement", "OSG_Assignement\OSG_Assignement.vcxproj", "{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSG_Utils", "OSG_Utils\OSG_Utils.vcxproj", "{5F706217-244C-434D-AF45-3F16376B7AB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Debug|Win32.ActiveCfg = Debug|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Debug|Win32.Build.0 = Debug|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Debug|x64.ActiveCfg = Debug|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Debug|x64.Build.0 = Debug|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Release|Win32.ActiveCfg = Release|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Release|Win32.Build.0 = Release|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Release|x64.ActiveCfg = Release|x64
+		{13082C01-624E-4BD6-AF9B-8E46EB15F4D7}.Release|x64.Build.0 = Release|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Debug|Win32.ActiveCfg = Debug|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Debug|Win32.Build.0 = Debug|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Debug|x64.ActiveCfg = Debug|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Debug|x64.Build.0 = Debug|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Release|Win32.ActiveCfg = Release|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Release|Win32.Build.0 = Release|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Release|x64.ActiveCfg = Release|x64
+		{5F706217-244C-434D-AF45-3F16376B7AB2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

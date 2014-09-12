@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Visitores">
+      <UniqueIdentifier>{d9bdb00d-3f17-48d9-9151-ade65c96fa55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{dadcdfb1-1e4f-4c57-90f5-be1f65908e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{f02905fe-5f23-48bd-a99c-c55bbb32b4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visitores">
+      <UniqueIdentifier>{f0e7418b-1dda-4431-8464-c07b930a6c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataHolders">
+      <UniqueIdentifier>{dfdef170-4b2e-42f7-a4fc-7673d215f5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHolders">
+      <UniqueIdentifier>{b86a6220-58d2-4b53-9aa5-9b78870de35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFinder.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPrinter.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeFinder.h">
+      <Filter>Header Files\Visitores</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeNameFinder.h">
+      <Filter>Header Files\Visitores</Filter>
+    </ClInclude>
+    <ClInclude Include="NodePrinter.h">
+      <Filter>Header Files\Visitores</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneIO.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeSerialiser.h">
+      <Filter>Header Files\Visitores</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHolder.h">
+      <Filter>Header Files\DataHolders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFinder.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPrinter.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeFinder.cpp">
+      <Filter>Source Files\Visitores</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeNameFinder.cpp">
+      <Filter>Source Files\Visitores</Filter>
+    </ClCompile>
+    <ClCompile Include="NodePrinter.cpp">
+      <Filter>Source Files\Visitores</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneIO.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHolder.cpp">
+      <Filter>Source Files\DataHolders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

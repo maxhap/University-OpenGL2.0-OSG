@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raaCGAssignment1-2012", "raaCGAssignment1-2012\raaCGAssignment1-2012.vcxproj", "{C2884F9D-4557-46EA-ACF5-3CED17708FCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{14464C9D-7624-4445-9F1D-1629C49395BA} = {14464C9D-7624-4445-9F1D-1629C49395BA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raaMathsLibrary", "raaMathsLibrary\raaMathsLibrary.vcxproj", "{14464C9D-7624-4445-9F1D-1629C49395BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2884F9D-4557-46EA-ACF5-3CED17708FCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2884F9D-4557-46EA-ACF5-3CED17708FCC}.Debug|Win32.Build.0 = Debug|Win32
+		{C2884F9D-4557-46EA-ACF5-3CED17708FCC}.Release|Win32.ActiveCfg = Release|Win32
+		{C2884F9D-4557-46EA-ACF5-3CED17708FCC}.Release|Win32.Build.0 = Release|Win32
+		{14464C9D-7624-4445-9F1D-1629C49395BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14464C9D-7624-4445-9F1D-1629C49395BA}.Debug|Win32.Build.0 = Debug|Win32
+		{14464C9D-7624-4445-9F1D-1629C49395BA}.Release|Win32.ActiveCfg = Release|Win32
+		{14464C9D-7624-4445-9F1D-1629C49395BA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
